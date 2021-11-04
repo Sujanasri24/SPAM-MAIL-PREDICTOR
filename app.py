@@ -29,13 +29,7 @@ def home():
             
         except :
             pass
-   
-        
-
-# @app.route('/', methods=['POST'])
-# def result():
-#     title = 'Spam Mail Detection'
           
 
 if __name__ == "__main__":
-    app.run(port=5050, debug=True)
+    app.run(debug=False)
